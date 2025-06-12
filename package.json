@@ -1,12 +1,12 @@
 {
-  "name": "@mhoc/axios-digest-auth",
+  "name": "@ibrahimcavdar/axios-digest-auth",
   "description": "axios-like http digest auth",
-  "version": "0.8.0",
-  "homepage": "https://github.com/mhoc/axios-digest-auth",
+  "version": "0.9.0",
+  "homepage": "https://github.com/ibrahimcavdar/axios-digest-auth",
   "license": "MIT",
   "main": "./dist",
   "scripts": {
-    "build": "./node_modules/.bin/tsc",
+    "build": "tsc",
     "test": "tsc && mocha",
     "docs:serve": "cd docs && mkdocs serve"
   },
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "16.10.2",
-    "mocha": "9.1.2",
+    "mocha": "^11.6.0",
     "typescript": "5.3.3"
   }
 }
